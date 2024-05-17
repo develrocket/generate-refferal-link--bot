@@ -1,7 +1,7 @@
 const { Bot, session } = require('grammy');
 const mysql = require("mysql2/promise");
 
-const bot = new Bot('token'); // Replace with your actual bot token
+const bot = new Bot('7073005052:AAFqiwMohNZcq0JR2HzUVTIAwBRGROml73U'); // Replace with your actual bot token
 
 // Middleware to handle private messages and channel messages
 bot.use(session());
